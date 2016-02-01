@@ -379,3 +379,5 @@ http.port: 9200
 marvel.agent.enabled: <%= @node_marvel_enabled %>
 marvel.agent.exporter.es.hosts: ["<%= @cluster_ip.strip % 11 %>:9200"]
 
+path.repo: ["/mnt/backups/elasticsearch"]
+

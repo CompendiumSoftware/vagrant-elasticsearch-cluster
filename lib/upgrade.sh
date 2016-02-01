@@ -1,5 +1,5 @@
 # Setting ES version to install
-ES_VERSION="elasticsearch-1.4.3"
+ES_VERSION="elasticsearch-1.6.2"
 ES_PLUGIN_INSTALL_CMD="elasticsearch/bin/plugin -install"
 
 # Removing all previous potentially installed version
@@ -29,3 +29,4 @@ ${ES_PLUGIN_INSTALL_CMD} karmi/elasticsearch-paramedic
 ${ES_PLUGIN_INSTALL_CMD} lukas-vlcek/bigdesk/2.5.0
 ${ES_PLUGIN_INSTALL_CMD} elasticsearch/marvel/latest
 ${ES_PLUGIN_INSTALL_CMD} royrusso/elasticsearch-HQ
+${ES_PLUGIN_INSTALL_CMD} lmenezes/elasticsearch-kopf/1.0

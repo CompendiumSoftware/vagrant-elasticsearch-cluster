@@ -1,3 +1,7 @@
 .vagrant/
 conf/*
 logs/
+backups/index
+backups/indices
+backups/metadata*
+backups/snapshot*
